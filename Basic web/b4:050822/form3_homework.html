@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 4</title>
+    <!-- [Bài tập] Tạo form đơn giản phần 2 -->
+    <style>
+        table {
+            background-color: khaki;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2" style="background-color: lightgreen; text-align: left">Student Registration</th>
+            </tr>
+            <tr>
+                <td>Full name</td>
+                <td><input type="text" style="width: 200px"></td>
+            </tr>
+            <tr>
+                <td>DoB</td>
+                <td><input type="text" style="width: 110px"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio">Male
+                    <input type="radio">Female
+                </td>
+            </tr>
+            <tr>
+                <td style="float: left">Address</td>
+                <td><textarea name="Diachi" id="diachi" cols="25" rows="3" style="width: 170px"></textarea></td>
+            </tr>
+            <tr>
+                <td>Class</td>
+                <td>
+                    <select name="lop" id="lop">
+                        <option value="chonlop">Please select class</option>
+                        <option value="lop11">Grade 11</option>
+                        <option value="lop12">Grade 12</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Register</button>
+                    <button>Please try again</button>
+                </td>
+            </tr>
+        </table>
+    </form>    
+</body>
+</html>
